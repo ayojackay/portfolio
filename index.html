@@ -3,21 +3,62 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Central Valley Fencing Contractors</title>
+    <title>AyoJackay</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+
+
+      function unhide(about, contact) {
+        var item = document.getElementById(about);
+        if (item) {
+          item.className =(item.className=='hidden') ? 'unhidden' : 'hidden';
+        }
+        document.getElementById(contact).className = 'hidden';
+      }
+    </script>
   </head>
   <body>
+    <div class="container-fluid main">
+      <header class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <img src="img/enter.jpg" alt="" class="img-responsive m-img">
+          </div>
+        </div>
+      </header>
+      <div class="container -m-cont">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <p style="padding-top:20px"><!-- Links to hidden divs-->
+              <a href="javascript:unhide('about', 'contact')" class="button">Portfolio</a><br><br>
+              <a href="javascript:unhide('contact', 'about')" class="button">Contact</a>
+            </p><!--End of  Links to hidden divs -->
+            <h2>Welcome to glory</h2>
 
-
-
-
-
-
-
-    <!-- javascript   -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+            <div id="about" class="hidden a-sec"><!-- Start hidden divs-->
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quasi repudiandae inventore, aspernatur magni commodi quas accusantium reprehenderit assumenda! Quod quidem voluptatibus similique quam, blanditiis, nam maxime aperiam inventore in?</p>
+            </div>
+            <div id="contact" class="hidden c-sec">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus eveniet tempore provident quae nostrum harum ratione veniam necessitatibus ab quisquam illum commodi facere, earum debitis voluptate vero iste officiis dolorum.</p>
+            </div><!--End of Hidden divs-->
+          </div><!-- end of col-->
+        </div><!--end of row-->
+      </div><!--end of m-cont container-->
+        <!-- navbar start
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#about" aria-controls="home" role="tab" data-toggle="tab">About</a></li>
+          <li role="presentation"><a href="#portfolio" aria-controls="profile" role="tab" data-toggle="tab">Portfolio</a></li>
+          <li role="presentation"><a href="#contact" aria-controls="messages" role="tab" data-toggle="tab">Contact</a></li>
+        </ul>
+      end of nav bar-->
+    </div><!-- end of container-fluid-->
+      <!-- footer-->
+      <!-- javascript   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
   </body>
 </html>

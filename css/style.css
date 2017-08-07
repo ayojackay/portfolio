@@ -1,0 +1,43 @@
+body {
+  background-color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+.unhidden {
+  display: block
+}
+
+.container-fluid {
+  margin-top: 50px;
+}
+.main {
+  margin: 0 auto;
+  height: auto;
+}
+
+.b-main {
+
+}
+
+
+
+img {
+  background-size: cover;
+}
+
+.m-img {
+  width: 600px;
+  height: 300px;
+}
+
+.side_nav {
+    position: relative;
+    width: 200px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:    rotate(-90deg);
+    -ms-transform:     rotate(-90deg);
+    -o-transform:      rotate(-90deg);
+}
