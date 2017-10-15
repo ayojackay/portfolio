@@ -7,60 +7,38 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript">
-      function unhide(about, contact) {
-        var item = document.getElementById(about);
-        if (item) {
-          item.className =(item.className=='hidden') ? 'unhidden' : 'hidden';
-        }
-        document.getElementById(contact).className = 'hidden';
-      }
-
-
-    </script>
   </head>
   <body>
-    <div class="margtop"></div>
-    <div class="container-fluid">
-        <header>
-        </header>
-        <div class="main">
-          <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>Welcome to glory</h2>
-                <p>Speed Of Sound, its a glory that has never failed, never.</p>
-              <ul class="link_divs list-inline"><!-- Links to hidden divs-->
-                <li><a href="javascript:unhide('portfolio', 'contact')" class="button">Portfolio</a></li>
-                <li><a href="javascript:unhide('contact', 'portfolio')" class="button">Contact</a></li>
-              </ul><!--End of  Links to hidden divs -->
-              <div id="portfolio" class="hidden a-sec"><!-- Start hidden divs-->
-                <h2>About me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quasi repudiandae inventore, aspernatur magni commodi quas accusantium reprehenderit assumenda! Quod quidem voluptatibus similique quam, blanditiis, nam maxime aperiam inventore in?</p>
-              </div>
-              <div id="contact" class="hidden c-sec">
-                <h2>Contact Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus eveniet tempore provident quae nostrum harum ratione veniam necessitatibus ab quisquam illum commodi facere, earum debitis voluptate vero iste officiis dolorum.</p>
-              </div><!--End of Hidden divs-->
-            </div><!-- end of col-->
-          </div><!--end of row-->
-        </div><!-- end of container main-->
+    <!--<div class="margtop"></div> -->
+    <div class="container"> <!-- CONTAINER -->
+      <div class="row">
+        <ul class="nav">
+          <li class="list-nav"><a href="#">Home</a></li>
+          <li class="list-nav"><a href="#">Contact</a></li>
+          <li class="list-nav"><a href="#">About</a></li>
+        </ul>
+        <div class="jumbotron"><!--JUMBOTRON-->
+          <h1>me, you, and jamz</h1>
+          <p>party, like no other</p>
+        </div>
+        <div class="row">
+        <div class="col-lg-12"> <!--Holder of space -->
+          <aside class="col-lg-2">
+            <li>People, who need help</li>
+            <li>join other communities</li>
+            <li>thoughts? write here.</li>
+          </aside>
+          <div class="col-lg-10 content"> <!-- NAVBAR-->
+            <h1>Need a friend? I got you covered.</h1>
+            <p>I speak for those who can't speak for them.</p>
+
+          </div> <!-- END of NAVBAR -->
+        </div> <!-- end of HOLDER OF SPACE -->
+        </div>
       </div>
-          <!-- navbar start
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#about" aria-controls="home" role="tab" data-toggle="tab">About</a></li>
-            <li role="presentation"><a href="#portfolio" aria-controls="profile" role="tab" data-toggle="tab">Portfolio</a></li>
-            <li role="presentation"><a href="#contact" aria-controls="messages" role="tab" data-toggle="tab">Contact</a></li>
-          </ul>
-        end of nav bar-->
-      <footer>
-        <h5>Strawberry fields, nothing is real</h5>
-      </footer>
-    </div><!-- end of container-fluid-->
-      <!-- footer-->
+    </div> <!-- END of CONTAINER -->
       <!-- javascript   -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-
     </script>
     <script src="js/bootstrap.min.js">
     </script>

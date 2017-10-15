@@ -1,80 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Roboto');
-
-
 body {
-  background-color: #dbc9bf;
+  background-color: yellow;
 }
 
-h2 {
-  font-family: 'Calligraffitti', cursive;
-  color: #875a66;
+.container {
+  background-color: #000;
+  margin: auto;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
 }
-
-p {
- font-family: 'Roboto', sans-serif;
- color: #000;
-}
-
-.margtop {
-  margin-top: 50px;
-}
-
-.container-fluid {
-  margin: 50px;
-}
-
-.hidden {
-  display: none;
-}
-
-.unhidden {
-  display: block
-}
-
-.main {
-  margin: 0 auto;
-  padding:0px;
-  background-color: #dbc9bf;
-  opacity: 1;
-  height: 250px;
+.jumbotron {
+  background: url('../img/tinybus.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+}
+.jumbotron > h1 {
+  color: red;
+  font-family: courier;
 }
 
-header {
-  padding: 20px 0px;
-  background: url('../img/flowtop.jpg') no-repeat bottom center;
-  background-size: cover;
-  height: 150px;
-  opacity: 0.6;
+.nav {
+  position: sticky;
+  width: 100%;
+  z-index: 1;
 }
 
-
-footer {
-  background: url('../img/flowbot.jpg') no-repeat top center;
-  background-size: cover;
-  height: 150px;
-  opacity: 0.6;
+.nav>li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
 }
 
-h5 {
-  color: #000;
-  font-family: 'Roboto', sans-serif;
+aside {
+
 }
 
-a {
-  text-decoration: none;
-  font-weight: lighter;
-  font-style: italic;
-  color: #fff;
-}
+.content {
+  background-color: #fff;
 
-
-.side_nav {
-    position: relative;
-    width: 200px;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform:    rotate(-90deg);
-    -ms-transform:     rotate(-90deg);
-    -o-transform:      rotate(-90deg);
 }
