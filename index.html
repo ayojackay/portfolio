@@ -9,34 +9,53 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!--<div class="margtop"></div> -->
-    <div class="container"> <!-- CONTAINER -->
+      <nav class="nav navbar-fixed-top">
+        <div class="container">
+          <ul>
+            <li class="list-nav"><a href="#">Home</a></li>
+            <li class="list-nav"><a href="#">Contact</a></li>
+            <li class="list-nav"><a href="#">About</a></li>
+          </ul>
+      </div>
+    </nav>
+    <div class="container  content"> <!-- CONTAINER -->
       <div class="row">
-        <ul class="nav">
-          <li class="list-nav"><a href="#">Home</a></li>
-          <li class="list-nav"><a href="#">Contact</a></li>
-          <li class="list-nav"><a href="#">About</a></li>
-        </ul>
         <div class="jumbotron"><!--JUMBOTRON-->
           <h1>me, you, and jamz</h1>
           <p>party, like no other</p>
         </div>
-        <div class="row">
-        <div class="col-lg-12"> <!--Holder of space -->
-          <aside class="col-lg-2">
-            <li>People, who need help</li>
-            <li>join other communities</li>
-            <li>thoughts? write here.</li>
-          </aside>
-          <div class="col-lg-10 content"> <!-- NAVBAR-->
-            <h1>Need a friend? I got you covered.</h1>
-            <p>I speak for those who can't speak for them.</p>
-
-          </div> <!-- END of NAVBAR -->
-        </div> <!-- end of HOLDER OF SPACE -->
-        </div>
       </div>
-    </div> <!-- END of CONTAINER -->
+        <div class="row">
+          <div class="col-lg-12"> <!-- NAVBAR-->
+            <section id="intro-sec">
+              <h1>I believe in greatness, I believe in you.</h1>
+              <p class="intro">Providing the ability to bring your dream alive, and introducing the Internet with a gift.<br />
+              Together we can conquer the obstacles and create something big. No idea is too small or too big to chase.<br />
+              <span class="intro_span">So, let's struggle and achieve, together.</span></p>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <section id ="port-sec">
+            <h1>Check out what I've been cookin</h1>
+            <div class="port--view" id="port--list"><!--PORTFOLIO SECTION-->
+              <ul>
+              <!--1--><li id="item1"><img src="img/sunset.jpeg" alt="pet store" class="pix-special img-responsive"><p class="description--port">Pet Store Project</p></li>
+              <!--2--><li id="item2"><img src="img/enter.jpg" alt="Restaurante" class="pix-special img-responsive"><p class="description--port">Restaurante Project</p></li>
+              <!--3--><li id="item3"><img src="img/indiepine.jpg" alt="Flor" class="pix-special img-responsive"><p class="description--port">Flor Project Project</p></li>
+                        <br />
+              <!--4--><li id="item4"><img src="img/8ball.png" alt="Magic8Ball" class="pix-special img-responsive"><p class="description--port">Magic8Ball Project</p></li>
+              <!--5--><li id="item5"><img src="img/yellow.jpg"  alt="Writer Blog" class="pix-special img-responsive"><p class="description--port">Writing Blog Project</p></li>
+              <!--6--><li id="item6"><img src="img/fences.jpeg" alt="Fencing Business" class="pix-special img-responsive"><p class="description--port">CVFC Project</p></li>
+              </ul>
+            </div> <!-- end of PORTFOLIO -->
+          </section>
+        </div>
+          <div class="row">
+            <div class="col-lg-12 hero">
+            </div>
+          </div>
+        </div>
       <!-- javascript   -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
     </script>
