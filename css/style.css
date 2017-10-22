@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
 body {
   background-color: #352f3b;
   padding-top: 40px;
@@ -25,6 +27,10 @@ body {
   color: #fff;
 }
 
+.jumbotron > p {
+  color: #fff;
+}
+
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
@@ -42,12 +48,9 @@ background-color: #fff;
 }
 
 .pix-special {
-  width: 250px;
-  height: auto;
-}
-
-#port-sec {
-  margin: 0 auto;
+  margin:auto;
+  width: 230px;
+  height: 230px;
 }
 
 .description--port {
@@ -61,7 +64,12 @@ background-color: #fff;
   text-transform: capitalize;
   text-align: center;
 }
-
+.fam-special {
+  font-family: 'Germania One', cursive;
+}
+.pad-special {
+  margin: 0 auto;
+}
 #hero {
   background: url(../img/partner.jpeg);
   background-size: cover;
@@ -87,6 +95,18 @@ background-color: #fff;
   height: 250px;
 }
 
+#port--list a {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#port--list img:hover {
+  background-color: #fea265;
+  opacity: 0.5;
+}
+
 .pad {
   padding: 6%;
 }
@@ -108,8 +128,10 @@ background-color: #fff;
 }
 
 /*FOLLOWING IS RESUME STYLES*/
-
-.resume > p {
+.modal {
+  width: 66%;
+}
+.modal-content > p {
 
 }
 
@@ -117,7 +139,7 @@ background-color: #fff;
   text-align: center;
 }
 
-.category_resume {
+.resume > .category_resume {
   color: #4977ff;
 }
 
