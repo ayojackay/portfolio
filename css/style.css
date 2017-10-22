@@ -1,17 +1,17 @@
 body {
-  background-color: yellow;
-
+  background-color: #352f3b;
+  padding-top: 40px;
+  font-family: 'Roboto';
+  font-weight: 300;
 }
 
 .container {
-  background-color: #000;
   margin: auto;
-  height: auto;
-  border: 2px solid #fff;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .jumbotron {
   background: url('../img/tinybus.jpeg') no-repeat center center;
@@ -20,45 +20,115 @@ body {
   text-align: center;
   margin-bottom: 0px;
 }
+
 .jumbotron > h1 {
-  color: red;
-  font-family: courier;
+  color: #fff;
 }
 
-nav {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.list-nav{
-  width: 33%;
-  height: auto;
-  text-align: center;
-  background-color: black;
+nav ul a {
+  color: #000;
 }
-
 .content {
 background-color: #fff;
 }
 
-.port--view > ul li {
-  display: inline-block;
-  padding: 0% 5%;
-  background-color:
+.intro_span {
+  font-weight: bold;
 }
 
-img {
+.pix-special {
   width: 250px;
   height: auto;
 }
 
-#port-sec > h1 {
+#port-sec {
+  margin: 0 auto;
+}
+
+.description--port {
+  font-family: 'Roboto', times;
+  font-weight: bold;
   text-align: center;
 }
 
-.hero {
-  background-image: url("../img/stars.jpg") no-repeat center center;
-  background-size: contain;
+.special {
+  color: #fea265;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#hero {
+  background: url(../img/partner.jpeg);
+  background-size: cover;
+  height: 450px;
+}
+
+#hero_2 {
+  background: url(../img/skills.jpeg);
+  background-size: cover;
+  height: auto;
+}
+
+.f-black {
+  color: #000;
+}
+
+.bg-white-op {
+  background-color: white;
+  opacity: 0.8;
+}
+.my-pic {
+  width: 200px;
+  height: 250px;
+}
+
+.pad {
+  padding: 6%;
+}
+
+#hero_3 {
+  background: url(../img/pixx.jpeg);
+  background-size: cover;
+  height: auto;
+  opacity: 1;
+}
+
+@media (min-width: @screen-sm-min) {
+  #port-sec {
+    width: 50%;
+  }
+
+.marg-auto {
+  margin: auto;
+}
+
+/*FOLLOWING IS RESUME STYLES*/
+
+.resume > p {
+
+}
+
+.intro__resume {
+  text-align: center;
+}
+
+.category_resume {
+  color: #4977ff;
+}
+
+.title-list__resume {
+  font-weight: bolder;
+}
+
+.job-category__resume {
+
+}
+
+.job-title__resume {
+
 }
