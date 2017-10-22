@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+body {
+  background-color: #352f3b;
+  padding-top: 40px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.jumbotron {
+  background: url('../img/tinybus.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.jumbotron > h1 {
+  color: #fff;
+}
+
+.jumbotron > p {
+  color: #fff;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+nav ul a {
+  color: #000;
+}
+.content {
+background-color: #fff;
+}
+
+.intro_span {
+  font-weight: bold;
+}
+
+.pix-special {
+  margin:auto;
+  width: 230px;
+  height: 230px;
+}
+
+.description--port {
+  font-family: 'Roboto', times;
+  font-weight: bold;
+  text-align: center;
+}
+
+.special {
+  color: #fea265;
+  text-transform: capitalize;
+  text-align: center;
+}
+.fam-special {
+  font-family: 'Germania One', cursive;
+}
+.pad-special {
+  margin: 0 auto;
+}
+#hero {
+  background: url(../img/partner.jpeg);
+  background-size: cover;
+  height: 450px;
+}
+
+#hero_2 {
+  background: url(../img/skills.jpeg);
+  background-size: cover;
+  height: auto;
+}
+
+.f-black {
+  color: #000;
+}
+
+.bg-white-op {
+  background-color: white;
+  opacity: 0.8;
+}
+.my-pic {
+  width: 200px;
+  height: 250px;
+}
+
+#port--list a {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#port--list img:hover {
+  background-color: #fea265;
+  opacity: 0.5;
+}
+
+.pad {
+  padding: 6%;
+}
+
+#hero_3 {
+  background: url(../img/pixx.jpeg);
+  background-size: cover;
+  height: auto;
+  opacity: 1;
+}
+
+@media (min-width: @screen-sm-min) {
+  #port-sec {
+    width: 50%;
+  }
+
+.marg-auto {
+  margin: auto;
+}
+
+/*FOLLOWING IS RESUME STYLES*/
+.modal {
+  width: 66%;
+}
+.modal-content > p {
+
+}
+
+.intro__resume {
+  text-align: center;
+}
+
+.resume > .category_resume {
+  color: #4977ff;
+}
+
+.title-list__resume {
+  font-weight: bolder;
+}
+
+.job-category__resume {
+
+}
+
+.job-title__resume {
+
+}
